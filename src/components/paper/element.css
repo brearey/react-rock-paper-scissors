@@ -1,0 +1,15 @@
+.game-element {
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.game-element > img {
+    max-width: 200px;
+    -webkit-user-drag: none;
+    scale: 1;
+    transition: 0.4s;
+}
+
+.game-element > img:hover {
+    scale: 1.05;
+}
