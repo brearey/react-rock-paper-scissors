@@ -8,15 +8,9 @@ export function MainPage() {
     <>
         <h1>Select your element</h1>
         <div style={{display: 'flex'}}>
-            <Element children={<img src={paperAsset} alt="paper"/>}>
-
-            </Element>
-            <Element>
-                <img src={scissorAsset} alt="scissor"/>
-            </Element>
-            <Element>
-                <img src={rockAsset} alt="paper"/>
-            </Element>
+            <Element children={<img src={paperAsset} alt="paper"/>} />
+            <Element children={<img src={scissorAsset} alt="scissor"/>} />
+            <Element children={<img src={rockAsset} alt="rock"/>} />
         </div>
     </>
   )
