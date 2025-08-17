@@ -10,7 +10,7 @@ export function App() {
       <BrowserRouter>
           <Routes>
               <Route path={ ROUTES.INDEX } element={<MainPage/>}/>
-              <Route path={ ROUTES.GAME } element={<GamePage/>}/>
+              <Route path={ `${ROUTES.GAME}/:elementType` } element={<GamePage/>}/>
           </Routes>
       </BrowserRouter>
   )
